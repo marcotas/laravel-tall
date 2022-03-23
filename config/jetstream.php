@@ -73,6 +73,6 @@ return [
     |
     */
 
-    'profile_photo_disk' => env('FILESYSTEM_DISK', 'public'),
+    'profile_photo_disk' => env('JETSTREAM_DISK', 'public'),
 
 ];
